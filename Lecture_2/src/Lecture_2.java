@@ -48,6 +48,7 @@ public class Lecture_2 {
 
         System.out.println( x > y );
         System.out.println( z > y);
+        System.out.println("---");
         boolean xVsy = (x > y);
         boolean zVsy = (z > y);
         System.out.println(xVsy && zVsy);

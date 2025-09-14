@@ -31,6 +31,17 @@ int multiplikationer = 1;
         System.out.println("---");
         System.out.println("Uppgift 2.1");
 
+        int talUppgift21 = 1;
+        while (talUppgift21 <= 20) {
+            if (talUppgift21 % 2 == 0) {
+                System.out.println(talUppgift21);
+            }
+            talUppgift21 ++;
+        }
+
+        System.out.println("---");
+        System.out.println("Uppgift 2.2");
+        
 
     }
 }

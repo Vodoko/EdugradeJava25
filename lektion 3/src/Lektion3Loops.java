@@ -41,7 +41,21 @@ int multiplikationer = 1;
 
         System.out.println("---");
         System.out.println("Uppgift 2.2");
-        
+
+        System.out.println("Scanner scanner 34:47/11:49");
+
+
+
+
+
+
+        System.out.println("---");
+        System.out.println("Uppgift 3.1");
+
+
+
+
+
 
     }
 }

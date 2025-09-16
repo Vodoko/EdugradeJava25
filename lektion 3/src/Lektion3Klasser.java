@@ -36,5 +36,7 @@ public class Lektion3Klasser {
         System.out.println("Ålder: "+defaultPerson.age);
         System.out.println("Yrke: "+defaultPerson.occupation);
         defaultPerson.introduce();
+
+
     }
 }

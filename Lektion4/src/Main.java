@@ -5,6 +5,13 @@ public class Main {
 
         System.out.println("Hello and welcome!");
 
+        Book lotr = new Book();
+        lotr.author = "JRR Tolkien";
+        lotr.titel = "Lord of the Rings";
+        lotr.pages = 1200;
+
+        System.out.println("Hur många sidor har Lotr: " + lotr.pages);
+
 
     }
 }

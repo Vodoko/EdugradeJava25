@@ -2,14 +2,17 @@ public class Book {
     String title;
     String author;
     int pages;
+    String genre;
 
+    //Instansiera constructorn
     public Book() {
     }
-
-    public Book(String title, String author, int pages) {
+//Constructor
+    public Book(String title, String author, int pages, String genre) {
         this.title = title;
         this.author = author;
         this.pages = pages;
+        this.genre = genre;
 
     }
 
@@ -23,6 +26,7 @@ public class Book {
                 "title='" + title + '\'' +
                 ", author='" + author + '\'' +
                 ", pages=" + pages +
+                ", genre='" + genre + '\'' +
                 '}';
     }
 }

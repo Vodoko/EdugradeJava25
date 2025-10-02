@@ -1,7 +1,7 @@
 public class Book {
     String title;
     String author;
-    int pages;
+    double pages;
     String genre;
 
     public Book(String title, String author, int pages, String genre) {
@@ -23,5 +23,10 @@ public class Book {
 
     void info () {
         System.out.println("Boken heter " + title + " och är skriven av " + author + " och har följande antal sidor: " + pages);
+    }
+
+    void readingTime () {
+        double timeToRead = (pages / 75);
+        System.out.println("Det tar " + timeToRead + " dagar att läsa " + title);
     }
 }

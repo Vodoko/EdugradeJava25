@@ -3,12 +3,13 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("---");
-        Book bookOne = new Book("lotr", "JRR Tolkien", 999, "Fantasy");
+        Book bookOne = new Book("Lord of the rings", "JRR Tolkien", 999, "Fantasy");
         // System.out.println(bookOne.toString());
         bookOne.info();
         Book bookTwo = new Book("Stora Boken om Lagar", "Svergies Regering", 1500, "Juridik");
-        Book bookThree = new Book ("Kartatlas", "Vägverket", 500, "Kartor");
-
-
+        Book bookThree = new Book ("Kart-Atlas", "Vägverket", 500, "Kartor");
+bookOne.readingTime();
+bookTwo.readingTime();
+bookThree.readingTime();
     }
 }

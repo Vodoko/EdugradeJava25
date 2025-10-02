@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Book {
     String title;
     String author;
@@ -28,5 +30,12 @@ public class Book {
     void readingTime () {
         double timeToRead = (pages / 75);
         System.out.println("Det tar " + timeToRead + " dagar att läsa " + title);
+    }
+
+    void isItFantasy () {
+        boolean checkFantasy = (genre == "Fantasy");
+        if (checkFantasy) {
+            System.out.println("Boken är av Genren Fantasy!");
+        } else System.out.println("Boken är inte fantasy. Den är av Genren " + genre);
     }
 }

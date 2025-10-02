@@ -11,5 +11,7 @@ public class Main {
 bookOne.readingTime();
 bookTwo.readingTime();
 bookThree.readingTime();
+bookOne.isItFantasy();
+bookTwo.isItFantasy();
     }
 }

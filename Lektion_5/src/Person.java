@@ -19,8 +19,8 @@ public class Person {
         return homeTown;
     }
 
-public void changeName (String newName){
-        name = newName;
+public void changeName (String name){
+        this.name = name;
 }
 
     public void changeAge (int newAge){

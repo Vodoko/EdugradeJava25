@@ -11,6 +11,16 @@ public class Main {
 //        bookifier1();
 //        bookifier2();
 
+SimpleCalculator calculateNumber = new SimpleCalculator();
+
+        System.out.println(calculateNumber.add(12,4));
+
+
+
+
+
+
+
 
     }
 

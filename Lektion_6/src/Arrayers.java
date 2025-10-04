@@ -7,8 +7,10 @@ public class Arrayers {
         numbers[2] = 5;
         numbers[3] = 8;
         numbers[4] = 13;
+
 //        System.out.println(numbers[3]);
 
+//        sum(numbers[i]);
 //        int summan = 0;
 //
 //        for (int i = 0; i < 5; i++) {
@@ -34,4 +36,12 @@ public class Arrayers {
 //        }
 //        System.out.println("Minsta talet i arrayen är: " + minstaTal);
     }
-}
+//    static void sum = (int[]) {
+//    int summan = 0;
+//
+//        for (int i = 0; i < 5; i++) {
+//        summan = summan + int[i];
+//        System.out.println("Summan av arrayen numbers är: " + summan);
+//    }
+    }
+

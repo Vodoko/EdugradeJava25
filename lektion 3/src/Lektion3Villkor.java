@@ -82,8 +82,28 @@ public class Lektion3Villkor {
                 System.out.println("Ogiltigt betyg");
         }
 
-        System.out.println("Uppgift 2.3");
+        System.out.println("Uppgift 3.1");
+        int a = 12;
+        int b = 4;
+//        String operation = "Multiplikation";
+        String operation = "fuckitweball";
 
+        switch (operation) {
+            case "Multiplikation":
+                System.out.println("Resultatet: " + (a * b));
+                break;
+            case "Subtraktion":
+                System.out.println("Resultatet: " + (a - b));
+                break;
+            case "Addition":
+                System.out.println("Resultatet: " + (a + b));
+                break;
+            case "Division":
+                System.out.println("Resultatet: " + (a / b));
+                break;
+            default:
+                System.out.println("Ogiltig operation!");
+        }
 
     }
 }

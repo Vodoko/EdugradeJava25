@@ -18,10 +18,10 @@ public class OvningsuppgifterLoopar {
         System.out.println("Uppgift 2.2");
         System.out.println("Svaret är scanner scanner eller swtich");
 
-        int guess = 5;
-        switch (guess){
-            case <20;
-        }
+//        int guess = 5;
+//        switch (guess){
+//            case <20;
+//        }
 
 
     }

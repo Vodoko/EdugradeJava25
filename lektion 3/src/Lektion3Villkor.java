@@ -3,7 +3,7 @@ public class Lektion3Villkor {
 
         System.out.println("Uppgift 1.1");
         int tal = 3;
-        if ((tal % 2)== 0) {
+        if ((tal % 2) == 0) {
             System.out.println("Talet är jämnt!");
         } else {
             System.out.println("Talet är inte jämnt");
@@ -12,11 +12,10 @@ public class Lektion3Villkor {
         System.out.println("---");
         System.out.println("Uppgift 1.2");
 
-int age = 20;
+        int age = 20;
 
 
-
-        if (age <= -1){
+        if (age <= -1) {
             System.out.println("Personen är inte född än!");
         } else if (age >= 120) {
             System.out.println("Troligen lever inte denna person!");
@@ -33,9 +32,9 @@ int age = 20;
         int talTwo = 10;
         int talTre = 17;
 
-        if ((talEtt > talTwo) && (talEtt>talTre)) {
+        if ((talEtt > talTwo) && (talEtt > talTre)) {
             System.out.println("Tal ett är störst!");
-        } else if ((talTwo > talEtt) && (talTwo>talTre)) {
+        } else if ((talTwo > talEtt) && (talTwo > talTre)) {
             System.out.println("Tal två är störst!");
         } else System.out.println("Tal tre är störst!");
 
@@ -65,22 +64,22 @@ int age = 20;
             case 1:
                 System.out.println("E");
                 break;
-
-                case 2:
-                    System.out.println("D");
-                    break;
-
+            case 2:
+                System.out.println("D");
+                break;
             case 3:
                 System.out.println("C");
                 break;
-                case 4:
-                    System.out.println("B");
-                    break;
-                    case 5:
-                        System.out.println("A");
-                        break;
+            case 4:
+                System.out.println("B");
+                break;
+            case 5:
+                System.out.println("A");
+                break;
+            case 6:
+                System.out.println("S");
             default:
-                System.out.println("S+");
+                System.out.println("Ogiltigt betyg");
         }
 
         System.out.println("Uppgift 2.3");

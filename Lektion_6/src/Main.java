@@ -10,7 +10,7 @@ public class Main {
         Student student1 = new Student("Valdemar Segerström");
 
         Classroom java25 = new Classroom(5);
-        java25.addStudent(student1());
+        java25.addStudent(student1);
         java25.addStudent(new Student("Valdemar Eriksson"));
 
 

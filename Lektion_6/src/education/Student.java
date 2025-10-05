@@ -7,9 +7,9 @@ public class Student {
     // Inbygd i konstruktorn för att förhindra ogiltiga namn
     public Student(String name) {
         int minLength = 3;
-        if (name.length() < minLength)
+        if (name.length() < minLength) {
             System.out.println("Namnet du valt är för kort!");
-        else {
+        } else {
             this.name = name;
         }
     }

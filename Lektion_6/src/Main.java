@@ -26,6 +26,7 @@ private static void example2() {
     String[] names = {"Valdemar", "Eriksson", "Mountaineer", "Greece", "Skeleboi"};
     Classroom java25 = new Classroom(5);
     for (int i = 0; i < names.length; i++){
+//    for (int i = 0; i < names.length; i++){
         java25.addStudent(new Student(names[i]));
     }
     java25.listStudents();

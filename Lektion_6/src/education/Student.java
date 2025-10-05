@@ -15,8 +15,8 @@ public class Student {
     }
 
     public void setName(String name) {
-        int minLenght = 3;
-        if (name.length() < minLenght)
+        int minLength = 3;
+        if (name.length() < minLength)
             System.out.println("Namnet du ändrar till är för kort!");
         else
             this.name = name;
@@ -27,3 +27,4 @@ public class Student {
         return name;
     }
 }
+

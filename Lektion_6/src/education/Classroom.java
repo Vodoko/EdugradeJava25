@@ -4,6 +4,7 @@ public class Classroom {
     private Student[] students;
     private int studentCount;
 
+    //konstruktor
     public Classroom (int size){
     students = new Student[size];
     studentCount = 0;

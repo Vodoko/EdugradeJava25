@@ -3,13 +3,15 @@ package education;
 public class Student {
     private String name;
 
-    // Inbygd i klassen för att förhindra ogiltiga namn
+    // konstruktor!
+    // Inbygd i konstruktorn för att förhindra ogiltiga namn
     public Student(String name) {
-        int minLenght = 3;
-        if (name.length() < minLenght)
+        int minLength = 3;
+        if (name.length() < minLength)
             System.out.println("Namnet du valt är för kort!");
-        else
+        else {
             this.name = name;
+        }
     }
 
     public void setName(String name) {

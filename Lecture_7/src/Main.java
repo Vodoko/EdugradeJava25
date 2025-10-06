@@ -4,6 +4,8 @@ import AbstraktionUppgifter.Piano;
 import ArvUppgifter.Car;
 import ArvUppgifter.Motorcycle;
 import ArvUppgifter.Truck;
+import Kombinera.FullTimeEmployee;
+import Kombinera.PartTimeEmployee;
 import PolymorfismUppgifter.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -18,7 +20,15 @@ public class Main {
 //exampleAbstract();
 //interfaceExample();
 //kombineraAbstraktOchInterface();
+        excerciseFour();
 
+    }
+
+    static public void excerciseFour(){
+        FullTimeEmployee employee1 = new FullTimeEmployee("Valleboi", 300);
+        PartTimeEmployee employee2 = new PartTimeEmployee("Vallegirl", 200,30);
+        employee1.pay();
+        employee2.pay();
     }
 
     static public void kombineraAbstraktOchInterface(){

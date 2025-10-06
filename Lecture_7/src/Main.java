@@ -1,3 +1,6 @@
+import AbstraktionUppgifter.Dog;
+import AbstraktionUppgifter.Guitar;
+import AbstraktionUppgifter.Piano;
 import ArvUppgifter.Car;
 import ArvUppgifter.Motorcycle;
 import ArvUppgifter.Truck;
@@ -11,8 +14,32 @@ public class Main {
 //        exampleEnheritance();
 //        exampleMethodOverloading();
 //examplePolymorfism1();
-        examplePrinting();
+//        examplePrinting();
+//exampleAbstract();
+//interfaceExample();
+//kombineraAbstraktOchInterface();
 
+    }
+
+    static public void kombineraAbstraktOchInterface(){
+        Dog dog = new Dog("Fido");
+        dog.makeSound();
+        dog.sleep();
+        dog.play();
+    }
+
+    static public void interfaceExample(){
+        Guitar guitar = new Guitar();
+        guitar.play();
+        Piano piano = new Piano();
+        piano.play();
+    }
+
+    static public void exampleAbstract(){
+        AbstraktionUppgifter.Circle circle = new AbstraktionUppgifter.Circle(2.5);
+        circle.calculateArea();
+        AbstraktionUppgifter.Rectangle rectangle = new AbstraktionUppgifter.Rectangle(5);
+        rectangle.calculateArea();
     }
 
     static public void examplePrinting(){

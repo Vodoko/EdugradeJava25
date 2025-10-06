@@ -24,61 +24,54 @@ public class Main {
 //kombineraAbstraktOchInterface();
 //        excerciseFour();
 
-
-List<Animal> zoo = new ArrayList<>();
-        Lion lion = new Lion("Lion");
-        Elephant elephant = new Elephant("Elephant");
-        Giraffe giraffe = new Giraffe("Giraffe");
-//animalsList();
-zoo.add(lion);
-zoo.add(elephant);
-zoo.add(giraffe);
-        System.out.println(zoo);
-        System.out.println(zoo.get(0));
-
-        lion.feed();
-
+        List<Feedable> zoo = new ArrayList<>();
+        zoo.add(new Lion("Simba"));
+        zoo.add(new Elephant("Dumbo"));
+        zoo.add(new Giraffe("Melman"));
+        for (Feedable animal : zoo) {
+            animal.feed();
+        }
 
 //for (int i = 0; i<zoo.size(); i++) {
 //
 //}
 
 
+    }
+
+    static void animalList() {
 
     }
-  static void animalList(){
 
-  }
-
-    static public void excerciseFour(){
+    static public void excerciseFour() {
         FullTimeEmployee employee1 = new FullTimeEmployee("Valleboi", 300);
-        PartTimeEmployee employee2 = new PartTimeEmployee("Vallegirl", 200,30);
+        PartTimeEmployee employee2 = new PartTimeEmployee("Vallegirl", 200, 30);
         employee1.pay();
         employee2.pay();
     }
 
-    static public void kombineraAbstraktOchInterface(){
+    static public void kombineraAbstraktOchInterface() {
         Dog dog = new Dog("Fido");
         dog.makeSound();
         dog.sleep();
         dog.play();
     }
 
-    static public void interfaceExample(){
+    static public void interfaceExample() {
         Guitar guitar = new Guitar();
         guitar.play();
         Piano piano = new Piano();
         piano.play();
     }
 
-    static public void exampleAbstract(){
+    static public void exampleAbstract() {
         AbstraktionUppgifter.Circle circle = new AbstraktionUppgifter.Circle(2.5);
         circle.calculateArea();
         AbstraktionUppgifter.Rectangle rectangle = new AbstraktionUppgifter.Rectangle(5);
         rectangle.calculateArea();
     }
 
-    static public void examplePrinting(){
+    static public void examplePrinting() {
         Printer printer = new Printer();
         printer.print("Exterminate!");
         ColorPrinter colorPrinter = new ColorPrinter();

@@ -12,8 +12,8 @@ public class Main {
         System.out.println("--- Lektion 6! ---");
         Student student1 = new Student("Valdemar Segerström");
 
-        zooExample();
 
+//        zooExample();
 //        example1();
 //        example2();
     }

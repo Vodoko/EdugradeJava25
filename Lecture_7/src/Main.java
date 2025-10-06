@@ -4,9 +4,11 @@ import AbstraktionUppgifter.Piano;
 import ArvUppgifter.Car;
 import ArvUppgifter.Motorcycle;
 import ArvUppgifter.Truck;
-import Kombinera.FullTimeEmployee;
-import Kombinera.PartTimeEmployee;
+import Kombinera.*;
 import PolymorfismUppgifter.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -20,9 +22,33 @@ public class Main {
 //exampleAbstract();
 //interfaceExample();
 //kombineraAbstraktOchInterface();
-        excerciseFour();
+//        excerciseFour();
+
+
+List<Animal> zoo = new ArrayList<>();
+        Lion lion = new Lion("Lion");
+        Elephant elephant = new Elephant("Elephant");
+        Giraffe giraffe = new Giraffe("Giraffe");
+//animalsList();
+zoo.add(lion);
+zoo.add(elephant);
+zoo.add(giraffe);
+        System.out.println(zoo);
+        System.out.println(zoo.get(0));
+
+        lion.feed();
+
+
+//for (int i = 0; i<zoo.size(); i++) {
+//
+//}
+
+
 
     }
+  static void animalList(){
+
+  }
 
     static public void excerciseFour(){
         FullTimeEmployee employee1 = new FullTimeEmployee("Valleboi", 300);

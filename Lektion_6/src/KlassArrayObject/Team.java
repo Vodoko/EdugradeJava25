@@ -6,7 +6,7 @@ public class Team {
 
     //Otroliga problem med denna konstruktor, tror att jag hade skrivit fel ovan (members istället för)
     public Team(int size) {
-        players = new Player[players.length];
+        players = new Player[size];
         membersCount = 0;
     }
 

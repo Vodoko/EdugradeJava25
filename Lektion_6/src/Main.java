@@ -10,7 +10,7 @@ public class Main {
         Student student1 = new Student("Valdemar Segerström");
 
 //        example1();
-        example2();
+//        example2();
     }
     private static void example1(){
         Student student1 = new Student("Valdemar Segerström");

@@ -1,9 +1,20 @@
 package se.gritacademy;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        String url = "jdbc:sqlite:identifier.sqlite";
+
+        try (Connection conn = DriverManager.getConnection(url)) {
+            if (conn != null) {
+                System.out.println("Connected to SQLite database!");
+                System.out.println("Database: " + conn.getMetaData().getDatabaseProductName());
+                System.out.println("Version: " + conn.getMetaData().getDatabaseProductVersion());
+            }
+        } catch (SQLException e) {
+            System.err.println("Connection failed: " + e.getMessage());
+        }
     }
 }

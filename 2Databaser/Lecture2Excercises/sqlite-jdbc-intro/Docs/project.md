@@ -1,5 +1,5 @@
 # Viktiga notes
 
-url: jdbc:sqlite:identifier.sqlite
+url: jdbc:sqlite:demo_01_basics.sqlite
 
-till mitt sqliteprojekt
+till mitt SQliteprojekt

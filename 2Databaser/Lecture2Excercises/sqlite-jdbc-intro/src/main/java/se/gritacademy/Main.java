@@ -3,9 +3,10 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+
 public class Main {
     public static void main(String[] args) {
-        String url = "jdbc:sqlite:identifier.sqlite";
+        String url = "jdbc:sqlite:demo_01_basics.sqlite";
 
         try (Connection conn = DriverManager.getConnection(url)) {
             if (conn != null) {

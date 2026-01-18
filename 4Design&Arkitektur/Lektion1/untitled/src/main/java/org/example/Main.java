@@ -1,8 +1,10 @@
 package org.example;
+package
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+
+        goodCalculator.setStrategy(new SameDayDelivery());
+        System.out.println("Same-day shipping cost: " + goodCalculator.calculate(weight) + " kr");
     }
 }
